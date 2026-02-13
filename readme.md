@@ -1,4 +1,4 @@
-**4D Topology Optimization of a Soft Body.**
+**4D Topology Optimization of a Soft Body.**\\
 This project focuses on the structural and actuation optimization of soft bodies designed for dynamic tasks. By using the Material Point Method (MPM) for stable discretization and the ADAM optimizer for iterative design refinement, the system evolves into a soft silicone like structure capable of complex movement.
 
 **Project Structure**
