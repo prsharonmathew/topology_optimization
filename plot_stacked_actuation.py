@@ -1,6 +1,6 @@
-    """stack iteration images in a folder into a grid with title and save
+"""stack iteration images in a folder into a grid with title and save
         as one image.
-    """
+"""
 import os
 from PIL import Image, ImageDraw, ImageFont
 
