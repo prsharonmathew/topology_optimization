@@ -22,6 +22,9 @@ plot_obj_cons_vs_iteration.py: Plots the objective function and constraint conve
 
 **Getting Started**
 
+Inorder to simulate a 2D walker uncomment line 1775 and 757. And comment lines 758 and 1776.
+To simulate a 2D climber uncomment lines 758 and 1776 and comment lines 1775 and 757.
+
 *Prerequisites*
 
 The simulation relies heavily on Taichi for GPU-accelerated physics. You will need the following Python environment:

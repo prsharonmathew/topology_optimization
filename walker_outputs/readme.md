@@ -1,0 +1,1 @@
+This folder contains the outputs generated for a 2D walker.

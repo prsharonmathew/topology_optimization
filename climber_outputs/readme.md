@@ -1,0 +1,1 @@
+This folder contains the output generated for a 2D climber.

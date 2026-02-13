@@ -1686,10 +1686,10 @@ def plot_config_actuator_if_solid_else_void(
     marker_size=18,
     iter=None
 ):
-"""
-Plot the configuration of design particles, colored by their assigned actuator
-(or no actuator), and masked by a solid/void threshold on physical density.
-"""
+    """
+    Plot the configuration of design particles, colored by their assigned actuator
+    (or no actuator), and masked by a solid/void threshold on physical density.
+    """
     x_pos_np = np.asarray(x_pos_np, float)
     rho_np = np.asarray(rho_np, float)
     W = np.asarray(act_w_soft_np, float)
