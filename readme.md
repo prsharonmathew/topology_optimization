@@ -27,15 +27,19 @@ plot_obj_cons_vs_iteration.py: Plots the objective function and constraint conve
 The simulation relies heavily on Taichi for GPU-accelerated physics. You will need the following Python environment:
 
 Bash
+
 pip install taichi numpy matplotlib pandas pillow pyevtk numpy_ml
 
 Execution Flow
+
 To replicate the results, follow this sequence:
 
 Run the Optimization:
 
 Bash
+
 python _4Dtopopt.py
+
 This will perform the simulation and save the raw data/pickles.
 
 *Generate Post-Processing Plots*:
@@ -43,6 +47,7 @@ This will perform the simulation and save the raw data/pickles.
 Run the specific plotting scripts to visualize the convergence and actuation:
 
 Bash
+
 python plot_stacked_actuation.py
 python plot_desvar_vs_iteration.py
 
